@@ -19,7 +19,7 @@ This practice is for educational purposes only and must be performed on files yo
 ## Usage
 
 ```bash 
-git clone https://github.com/samrat-xyz/zipfile-cracking.git
+git clone https://github.com/md-samrat/zipfile-cracking.git
 cd zipfile-cracking
 zip2john secret.zip > hashsecret.txt (optional :already have you can remove the exist hashsecret.txt)
 john --wordlist=/usr/share/wordlists/rockyou.txt --rules hashsecret.txt
