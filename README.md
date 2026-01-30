@@ -16,11 +16,11 @@ This practice is for educational purposes only and must be performed on files yo
 
 ---
 
-## Usage
+## Installation & Usage
 
 ```bash 
-git clone https://github.com/md-samrat/zipfile-cracking.git
-cd zipfile-cracking
+git clone https://github.com/md-samrat/zipfile-cracking-by-john.git
+cd zipfile-cracking-by-john
 zip2john secret.zip > hashsecret.txt (optional :already have you can remove the exist hashsecret.txt)
 john --wordlist=/usr/share/wordlists/rockyou.txt --rules hashsecret.txt
 john --show hashsecret.txt 
